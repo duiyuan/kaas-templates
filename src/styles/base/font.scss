@@ -1,0 +1,46 @@
+// inter font
+@font-face {
+  font-family: 'inter-regular';
+  src: url('/fonts/inter/Inter-regular.ttf');
+}
+
+@font-face {
+  font-family: 'inter-medium';
+  src: url('/fonts/inter/Inter-medium.ttf');
+}
+
+@font-face {
+  font-family: 'inter-bold';
+  src: url('/fonts/inter/Inter-bold.ttf');
+}
+
+@font-face {
+  font-family: 'inter-semibold';
+  src: url('/fonts/inter/Inter-semibold.ttf');
+}
+
+// ====== sourcehansanscn end ========
+
+$fontfallback: system-ui, -apple-system, BlinkMacSystemFont, Helvetica, 'PingFang SC', SCHeiti, 'Microsoft YaHei',
+  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+// ======= menlon font class ========
+.font-inter-regular {
+  font-family: inter-regular, $fontfallback;
+}
+
+.font-inter-bold {
+  font-family: inter-bold, $fontfallback;
+}
+
+.font-inter-semibold {
+  font-family: inter-semibold, $fontfallback;
+}
+
+.font-inter-medium {
+  font-family: inter-medium, $fontfallback;
+}
+// ======= mono ========
+.font-mono {
+  font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
