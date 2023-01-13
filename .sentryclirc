@@ -1,0 +1,7 @@
+[defaults]
+url = https://sentry.moqun.cn/
+org = idea
+project = dioscan
+
+[auth]
+token = 4cfcd65a90f14dd38eefd4c6fd7f8d9b5036ffb6fa4d4ffeb74a941a68dccc9c
