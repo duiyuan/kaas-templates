@@ -1,0 +1,39 @@
+// inter
+@font-face {
+  font-family: "inter-regular";
+  src: url("../static/fonts/inter/inter-regular.ttf");
+}
+@font-face {
+  font-family: "inter-bold";
+  src: url("../static/fonts/inter/inter-bold.ttf");
+}
+@font-face {
+  font-family: "menlo";
+  src: url("../static/fonts/menlo/menlo-regular.ttf");
+}
+
+// ====== sourcehansanscn end ========
+$fontfallback: system-ui, -apple-system, blinkmacsystemfont, helvetica,
+  "pingfang sc", scheiti, "microsoft yahei", sans-serif, "apple color emoji",
+  "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+
+h3 {
+  font-size: 18px;
+}
+h4,
+.ui-h4 {
+  font-size: 16px;
+}
+
+h5,
+.ui-h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+.ui-fs15 {
+  font-size: 15px;
+}

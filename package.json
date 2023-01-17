@@ -1,0 +1,104 @@
+{
+  "name": "VSC_EXTENSION",
+  "displayName": "VSC_EXTENSION displayName",
+  "description": "VSC_EXTENSION description",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "icon": "resource/images/logo.png",
+  "categories": [
+    "Debuggers"
+  ],
+  "publisher": "AUTHOR",
+  "activationEvents": [
+    "onCommand:VSC_EXTENSION.run"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "keybindings": [
+      {
+        "command": "VSC_EXTENSION.run",
+        "key": "ctrl+5",
+        "mac": "cmd+5",
+        "when": "editorTextFocus"
+      }
+    ],
+    "commands": [
+      {
+        "command": "VSC_EXTENSION.run",
+        "title": "VSC_EXTENSION: Run"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "VSC_EXTENSION.run",
+          "group": "1_VSC_EXTENSION",
+          "when": "resourceExtname =~ /\\..?/"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "VSC_EXTENSION.run",
+          "group": "1_VSC_EXTENSION",
+          "when": "editorTextFocus && resourceExtname =~ /\\..?/"
+        }
+      ]
+    }
+  },
+  "license": "ISC",
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "watch": "npm-run-all -p watch:*",
+    "watch:view": "cd web && cross-env NODE_ENV=development webpack --watch --mode development",
+    "watch:extension": "tsc -watch -p ./",
+    "compile": "npm-run-all compile:*",
+    "compile:extension": "tsc -p ./",
+    "compile:view": "cd web && cross-env NODE_ENV=production webpack --mode production",
+    "test": "npm run compile:extension && node ./out/test/runTest.js",
+    "lint": "eslint src --ext ts",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.2",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@types/ejs": "^3.1.1",
+    "@types/fs-extra": "^9.0.13",
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/mustache": "^4.2.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.56.0",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "@vscode/test-electron": "^2.1.5",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.6",
+    "eslint": "^8.20.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "glob": "^8.0.3",
+    "husky": "^8.0.0",
+    "less": "^4.1.1",
+    "less-loader": "^8.1.1",
+    "mocha": "^10.0.0",
+    "node-fetch": "^3.2.10",
+    "npm-run-all": "^4.1.5",
+    "react-dev-utils": "^12.0.1",
+    "rimraf": "^3.0.2",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.4",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.6",
+    "ejs": "^3.1.8",
+    "fs-extra": "^10.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duiyuan/VSC_EXTENSION"
+  }
+}
