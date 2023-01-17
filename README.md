@@ -1,27 +1,30 @@
 ## Usages
 
-- Commands
+- src
+- - Commands // 插件命令
+- - extension.ts // 插件主文件
+- web // 模版文件
+- resource // 资源文件
 
 
-## Snippets
+## Dev
 
-You can use those snippets in `.prdts`.
+```
+  yarn watch // compile ts to js
+  vscode keyup F5 to dev this extension
+```
 
-| Trigger           | content                                          |
-| :---------------- | :----------------------------------------------- |
-| set:seed          | random.reseed {seed}                             |
-| set:gas           | chain.gaslimit {gas}                             |
-| set:state         | state.set scope.contract_name {state}            |
-| chain:run         | chain.run                                        |
-| chain:info        | chain.info                                       |
-| chain:deploy      | chain.deploy {contract}                          |
-| viz:b#all         | viz.block #all                                   |
-| viz:b#shard       | viz.block #shard                                 |
-| viz:b#shard:block | viz.block #shard:block                           |
-| viz:s             | viz.shard #g,n                                   |
-| viz:a             | viz.addr @all,random,n                           |
-| viz:t             | viz.txn {txn}                                    |
-| viz:p             | viz.profiling                                    |
-| viz:trace         | viz.trace {txn}                                  |
-| viz:section       | viz.section {txn}                                |
-| stopwatch         | stopwatch.restart + emptyline + stopwatch.report |
+## Publish
+
+#### build in local 
+
+```
+  yarn compile or yarn vscode:prepublish
+  vsce package
+```
+
+#### build with CI/CD
+push pr to main while run the DI/CD
+- change log generator
+- vsce package and upload to release assest
+- add tag and create release darft
