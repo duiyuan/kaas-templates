@@ -1,0 +1,108 @@
+.basic-input {
+  width: 326px;
+  position: relative;
+  &-space {
+    margin-bottom: 15px;
+  }
+  &-title {
+    margin-bottom: 8px;
+    // font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--color-text-light);
+  }
+
+  &-container {
+    height: 100%;
+    border: 1px solid var(--color-split-line);
+    overflow: hidden;
+    border-radius: 4px;
+    display: flex;
+    // background-color: var(--color-text-reverse);
+    background-color: var(--color-bg);
+    &-textarea {
+      height: 100%;
+    }
+
+    input {
+      height: 100%;
+      outline: none;
+      padding: 0 8px;
+      border: none;
+      width: 100%;
+      background-color: var(--color-bg);
+      color: var(--color-text-default);
+    }
+
+    input[type='password'] {
+      letter-spacing: 10px;
+      font-size: 22px;
+    }
+
+    textarea::placeholder,
+    input::placeholder {
+      letter-spacing: 0;
+      color: var(--color-finalized);
+      font-size: 14px;
+    }
+
+    textarea {
+      border: 0;
+      width: 100%;
+      height: 100%;
+      padding: 10px 8px;
+      background-color: var(--color-bg);
+      color: var(--color-text-default);
+      resize: none;
+    }
+
+    textarea:focus {
+      border: 0;
+      outline: none;
+    }
+
+    &-focused {
+      border-color: var(--color-primary);
+    }
+
+    &-error {
+      border-color: var(--color-error);
+    }
+  }
+  &-subfix-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border: 1px solid black;
+    // line-height: $height;
+  }
+
+  &-prefix-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border: 1px solid black;
+    // line-height: $height;
+  }
+
+  &-notice-element {
+    // border: 1px solid black;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    color: var(--color-error);
+    // bottom: -20px;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  /* Firefox */
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}

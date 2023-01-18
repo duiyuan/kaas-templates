@@ -1,0 +1,15 @@
+.picker-box {
+  position: relative;
+  &-options {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+    border: 1px solid #3a3939;
+    border-radius: 4px;
+    background: #090808;
+    max-height: 150px;
+    overflow: auto;
+  }
+}

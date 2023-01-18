@@ -1,0 +1,62 @@
+.clipboard-item {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 6px;
+  color: var(--color-text-light);
+  position: relative;
+
+  i,
+  .copy-btn {
+    margin-left: 5px;
+    color: inherit;
+    font-size: 14px;
+  }
+
+  .tooltips {
+    position: absolute;
+    margin-top: 20px;
+    padding: 8px 12px;
+    color: var(--color-text-reverse);
+    text-align: center;
+    background: var(--color-toast-primary);
+    border-radius: 4px;
+    visibility: hidden;
+    width: 100%;
+    top: 15px;
+
+    &-success {
+      background-color: var(--color-toast-green);
+      // border: 1px solid $green;
+      color: var(--color-text-reverse);
+
+      &::after {
+        // border-color: var(--color-success) !important;
+        border-right: none;
+        border-bottom: none;
+        background-color: var(--color-toast-green) !important;
+      }
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      transform: rotate(45deg) translateX(-50%) translateY(-28%);
+      height: 10px;
+      width: 10px;
+      background-color: var(--color-toast-primary);
+      border-bottom: 0;
+      border-right: 0;
+      position: absolute;
+      top: 0;
+      left: 50%;
+    }
+  }
+
+  &:hover {
+    color: var(--color-primary);
+    cursor: pointer;
+    .tooltips {
+      visibility: visible;
+    }
+  }
+}

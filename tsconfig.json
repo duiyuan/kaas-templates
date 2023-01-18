@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "isolatedModules": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "module": "esnext",
+    "downlevelIteration": true,
+    "baseUrl": ".",
+    "paths": {
+      "Src/*": ["src/*"],
+      "@/*": ["src/*"],
+      "Components/*": ["src/components/*"],
+      "Utils/*": ["src/utils/*"]
+    },
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./",
+    "noEmit": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "types/*.d.ts",
+    "dioxscan-interface/*.d.ts"
+  ],
+  "exclude": ["node_modules", "dist", "scripts"]
+}

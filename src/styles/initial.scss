@@ -1,0 +1,337 @@
+// fonts
+
+@font-face {
+  font-family: 'menlo-bold';
+  src: url('./../static/fonts/menlo/menlo-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'menlo-bolditalic';
+  src: url('./../static/fonts/menlo/menlo-bolditalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'menlo-italic';
+  src: url('./../static/fonts/menlo/menlo-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'menlo-regular';
+  src: url('./../static/fonts/menlo/menlo-regular.ttf') format('truetype');
+}
+
+// initial
+body,
+html {
+  margin: 0 !important;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  // pxtorem unreplace PX
+  font-size: 10PX;
+}
+
+span,
+p {
+  font-size: 12px;
+}
+
+#root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #1a1919;
+}
+
+.logo-wrap {
+  display: flex;
+  position: absolute;
+  left: 48px;
+  top: 40px;
+  width: 148px;
+  height: 40px;
+  justify-content: space-between;
+
+  img {
+    height: 48px;
+  }
+
+  .text {
+    color: #fff;
+    font-size: 24px;
+    line-height: 48px;
+  }
+}
+
+.logobox {
+  position: absolute;
+  display: flex;
+  left: 50px;
+  top: 40px;
+  width: 148px;
+  justify-content: flex-start;
+  justify-items: center;
+
+  img {
+    height: 48px;
+  }
+
+  .text {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 12px;
+    line-height: 48px;
+  }
+}
+
+.notice {
+  max-width: 400px;
+  max-height: 96px;
+  border: 1px solid var(--color-split-line);
+  border-radius: 16px 0 0 16px;
+  display: flex;
+  justify-self: center;
+  padding: 10px 40px 10px 20px;
+  position: absolute;
+  right: 0;
+  top: 48px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  align-items: center;
+  background-color: var(--color-bg);
+
+  .logo-golden {
+    width: 48px;
+    height: 48px;
+    margin-right: 21px;
+    align-items: center;
+  }
+
+  .thumbtack,
+  .puzzle {
+    width: 24px;
+    vertical-align: text-bottom;
+  }
+}
+
+.app {
+  max-width: 380px;
+  height: 600px;
+  overflow: hidden;
+  background: var(--color-bg);
+  position: relative;
+
+  &.maxsize {
+    height: 650px;
+  }
+
+  &.full-scan {
+    max-width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #000;
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+  }
+}
+
+.box-shadow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.cust-font-family,
+.ui-font-menlo {
+  font-family: 'roboto-mono-regular' !important;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background-color: #f5f5f5;
+}
+
+.ui-scroll {
+  overflow-y: auto;
+
+  &.scroll-x {
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 12px;
+    background: transparent;
+  }
+
+  &.hide-scrollbar {
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background-color: var(--color-bg-secondary);
+      background-clip: content-box;
+      border-right: 2px solid transparent;
+      border-left: 2px solid transparent;
+    }
+  }
+}
+
+// define variable
+
+:root {
+  --color-primary: #335fff;
+  // 副色
+  --color-secondary: #4b66f64d;
+  // success
+  --color-success: #00e89b;
+  // gold
+  --color-gold: #e0c286;
+  // warn
+  --color-warn: #fbaa6f;
+  // error
+  --color-error: #e34d59;
+  --color-error-bg: #ffd8d9;
+  --color-success-bg: #d6f5da;
+
+  // 背景 顶部栏
+  --color-backgound: #f7f7fa;
+  // 提示类颜色
+  --color-border-normal: #ccc;
+  --color-notice: #ccc;
+  --color-black-lv1: #000;
+  // 二级 icon
+  --color-icon-lv2: #6a7394;
+  // 三级 icon
+  --color-icon-lv3: #9ca0b2;
+  --light-gray: #f7f7fa;
+  --deep-blue: #4b66f7;
+  --deep-gray: #e5e6eb;
+  --icon-lv3-gray: #9ca0b2;
+  --color-split-line: #3a3939;
+}
+
+.light-theme {
+  --color-primary: #335fff;
+  // 副色
+  --color-primary-30: #335fff4d;
+  // success
+  --color-success: #00e89b;
+  // warn
+  --color-warn: #fbaa6f;
+  // error
+  --color-error: #e34d59;
+  // 背景 顶部栏
+  --color-bg-layout-header: #f7f7fa;
+  // 提示类颜色
+  --color-text-notice: #ccc;
+  // 二级 icon
+  --color-text-light: #6a7394;
+  // 三级 icon
+  --color-text-deep: #9ca0b2;
+  --color-split-line: #3a3939;
+  --light-gray: #f7f7fa;
+  --deep-blue: #4b66f7;
+  --deep-gray: #e5e6eb;
+  --icon-lv3-gray: #9ca0b2;
+  --color-bg: #fff;
+  --color-text-default: #000;
+  --color-text-reverse: #fff;
+}
+
+.dark-theme {
+  // 主色
+  --color-primary: #e0c286;
+  // 主色 50%
+  --color-primary-50: #e0c28680;
+  // 主色 30%
+  --color-primary-30: #e0c2864d;
+  // 主色 8%
+  --color-primary-8: #e0c28614;
+  // main bg
+  --color-bg-main: #1a1919;
+  // second bg
+  --color-bg-secondary: #474747;
+  // bg 导航
+  --color-bg-layout-header: #1a1919;
+  // 绿色
+  --color-success: #0c8;
+  // 红色
+  --color-error: #ec404e;
+  //  黄色（橙色）
+  --color-pending: #f78433;
+  // 终止状态颜色
+  --color-finalized: #6b6b6b;
+  // 绿色toast
+  --color-toast-green: #d6f5da;
+  // 主色toast
+  --color-toast-primary: #ede3c6;
+  // 字体浅色lv2
+  --color-text-light: #a3a3a3;
+  // 字体深色 lv3
+  --color-text-deep: #6b6b6b;
+  // 提示性颜色
+  --color-text-notice: #474747;
+  // 分割线颜色
+  --color-split-line: #3a3939;
+  --color-bg: #090808;
+  --color-text-default: #fff;
+  --color-text-reverse: #000;
+  --color-gradient-start: #e0c286;
+  --color-gradient-end: #d5a74b;
+}
+
+.common-layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 20px;
+  padding-top: 20px;
+
+  .content {
+    flex: 1;
+  }
+
+  .footer {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.string-value {
+  word-break: break-all;
+}
+
+.react-json-view {
+  * {
+    font-size: 13px;
+  }
+}
+
+.object-cover {
+  object-fit: cover;
+}

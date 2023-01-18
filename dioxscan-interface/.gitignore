@@ -102,16 +102,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-.DS_Store
-
-**/.DS_Store
-
-# The chrome extension
-*.zip
-*.crx
-
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local

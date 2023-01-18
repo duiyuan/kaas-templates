@@ -1,0 +1,93 @@
+// loading-steps 
+.loading-steps {
+  position: relative;
+  width: 80px;
+  perspective: 200px;
+
+  .step {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    animation: jumping .5s infinite alternate;
+    background-color: var(--color-primary);
+
+    &:first-child {
+      left: 0;
+    }
+    
+    &:nth-child(2) {
+      left: 30px;
+      animation-delay: 0.15s;
+    }
+  
+    &:last-child {
+      left: 60px;
+      animation-delay: 0.3s;
+    }
+  }
+
+
+  @keyframes jumping {
+    0% {
+      transform: scale(1) translateY(0) rotateX(25deg);
+      box-shadow: 0 0 0 var(--color-primary);
+    }
+  
+    100% {
+      transform: scale(1.2) translateY(-25px) rotateX(45deg);
+      background: var(--color-primary-50);
+      box-shadow: 0 25px 40px var(--color-primary-50);
+    }
+  }
+}
+
+
+// loading-balls ================================================
+
+.loading-balls, .balls {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.loading-balls {
+  display: block;
+  font-size: 0;
+  width: 54px;
+  height: 18px;
+
+  .ball {
+    display: inline-block;
+    background-color: var(--color-primary);
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border-radius: 100%;
+    animation: ball-pulse 1s ease infinite;
+
+    &:first-child {
+      animation-delay: .2s;
+    }
+    
+    &:nth-child(2) {
+      animation-delay: .1s;
+    }
+  
+    &:last-child {
+      animation-delay: 0ms;
+    }
+  }
+
+  @keyframes ball-pulse {
+    0%,
+    60%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  
+    30% {
+      opacity: 0.1;
+      transform: scale(0.01);
+    }
+  }
+}

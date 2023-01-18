@@ -1,0 +1,25 @@
+.modal-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000080;
+  z-index: 103;
+
+  .modal-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: var(--color-text-reverse);
+    // border-radius: 12px 12px 0 0;
+    transition: height ease-in-out 0.3s;
+
+    &-transition {
+      height: 527px;
+      z-index: 104;
+      transition: height ease-in-out 0.3s;
+    }
+  }
+}

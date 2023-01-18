@@ -1,13 +1,33 @@
-## Project Template  
+### Requirement
 
-this repo save the available template for cli (undone, continuous updating)
+- nodejs ≥12
+  > [install](https://registry.npmmirror.com/binary.html?path=node/)
+- yarn
 
-###  Repo   
-1) ssr: init a ssr project with nextjs  
-2) spa: init a spa project with react  
-3) vscode-extension: init a vscode extension project with ts  
-4) chrome-extension: init a chrome extension project with ts  
+### Technology stack
 
-### Download  
+- react
+- react-router
+- mobx
+- typescript
 
-use branch to download different template (e.g. c-rick/project-template#ssr will download ssr template)
+### Dev
+
+development mode, but devserver will write files to disk
+
+```
+$ yarn ext
+```
+
+development mode, but devserver do not write files to disk, base on memory absolutely
+
+```
+$ yarn dev
+```
+
+### Production
+
+```
+$ yarn build
+$ yarn release
+```

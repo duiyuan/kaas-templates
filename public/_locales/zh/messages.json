@@ -1,0 +1,500 @@
+{
+    "2_20_alphanumeric_digits_and_": {
+        "message": "2-20 alphanumeric digits and "
+    },
+    "About": {
+        "message": "About"
+    },
+    "Address": {
+        "message": "Address"
+    },
+    "Address_Name": {
+        "message": "Address Name"
+    },
+    "Advanced": {
+        "message": "Advanced"
+    },
+    "Amount": {
+        "message": "Amount"
+    },
+    "Auto_Lock_Timer": {
+        "message": "Auto-Lock Timer"
+    },
+    "Auto_lock_in_a_few_minutes": {
+        "message": "Auto lock in a few minutes"
+    },
+    "Backup_Mnemonic": {
+        "message": "Backup Mnemonic"
+    },
+    "Balance": {
+        "message": "Balance"
+    },
+    "Can_t_get_detail_in_storage_key_named_edit_addr_": {
+        "message": "Can't get detail in storage(key named edit-addr)"
+    },
+    "Cancel": {
+        "message": "Cancel"
+    },
+    "Change_Passcode": {
+        "message": "Change Passcode"
+    },
+    "Click_here_to_display_mnemonic": {
+        "message": "Click here to display mnemonic"
+    },
+    "Click_on_the_mnemonic_words_in_the_correct_order": {
+        "message": "Click on the mnemonic words in the correct order"
+    },
+    "Close": {
+        "message": "Close"
+    },
+    "Confirm": {
+        "message": "Confirm"
+    },
+    "Confirm_Mnemonic": {
+        "message": "Confirm Mnemonic"
+    },
+    "Confirm_New_Passcode": {
+        "message": "Confirm New Passcode"
+    },
+    "Confirm_the_passcode": {
+        "message": "Confirm the passcode"
+    },
+    "Congratulations_on_passing_the_test_and_keeping_your_Address_mnemonics_safe_": {
+        "message": "Congratulations on passing the test and keeping your Address mnemonics safe."
+    },
+    "Connect": {
+        "message": "Connect"
+    },
+    "Connect_a_single_address": {
+        "message": "Connect a single address"
+    },
+    "Connect_the_entire_wallet": {
+        "message": "Connect the entire wallet"
+    },
+    "Connected": {
+        "message": "Connected"
+    },
+    "Connecting": {
+        "message": "Connecting"
+    },
+    "Connection": {
+        "message": "Connection"
+    },
+    "Copied": {
+        "message": "Copied"
+    },
+    "Copy": {
+        "message": "Copy"
+    },
+    "Copy_to_Clipboard": {
+        "message": "Copy to Clipboard"
+    },
+    "Create": {
+        "message": "Create"
+    },
+    "Create_Address": {
+        "message": "Create Address"
+    },
+    "Create_a_New_Wallet": {
+        "message": "Create a New Wallet"
+    },
+    "Creation_Deposit": {
+        "message": "Creation Deposit"
+    },
+    "Current_Language": {
+        "message": "Current Language"
+    },
+    "Current_Passcode": {
+        "message": "Current Passcode"
+    },
+    "Current_passcode_is_required": {
+        "message": "Current passcode is required"
+    },
+    "DApp_not_exist": {
+        "message": "DApp not exist"
+    },
+    "DApps": {
+        "message": "DApps"
+    },
+    "Delegatee": {
+        "message": "Delegatee"
+    },
+    "Description": {
+        "message": "Description"
+    },
+    "Details": {
+        "message": "Details"
+    },
+    "Developer_Mode": {
+        "message": "Developer Mode"
+    },
+    "Developer_mode_will_disable_all_security_checks_to_ease_debugging__but_exposes_vulnerability_that_can_be_exploited_by_malicious_websites__If_you_are_not_a_developer__you_should_never_turn_this_on__no_matter_who_asks_you_to_do_so_": {
+        "message": "Developer mode will disable all security checks to ease debugging, but exposes vulnerability that can be exploited by malicious websites. If you are not a developer, you should never turn this on, no matter who asks you to do so."
+    },
+    "DioWallet": {
+        "message": "DioWallet"
+    },
+    "Disconnect": {
+        "message": "Disconnect"
+    },
+    "Do_you_have_mnemonic_backed_up___": {
+        "message": "Do you have mnemonic backed up?!!"
+    },
+    "Edit": {
+        "message": "Edit"
+    },
+    "Edit_User_Address_s_Identity": {
+        "message": "Edit User Address’s Identity"
+    },
+    "Edit_token_need_delegatee": {
+        "message": "Edit token need delegatee"
+    },
+    "Enter": {
+        "message": "Enter"
+    },
+    "Enter_Your_Passcode": {
+        "message": "Enter Your Passcode"
+    },
+    "Enter_the_URL_of_the_address_image": {
+        "message": "Enter the URL of the address image"
+    },
+    "Enter_the_Website_URL": {
+        "message": "Enter the Website URL"
+    },
+    "Enter_the_description_copy_of_the_address": {
+        "message": "Enter the description copy of the address"
+    },
+    "Enter_your_Discord_account": {
+        "message": "Enter your Discord account"
+    },
+    "Enter_your_Facebook_account": {
+        "message": "Enter your Facebook account"
+    },
+    "Enter_your_GiHub": {
+        "message": "Enter your GiHub"
+    },
+    "Enter_your_Telegram_account": {
+        "message": "Enter your Telegram account"
+    },
+    "Enter_your_Twitter_account": {
+        "message": "Enter your Twitter account"
+    },
+    "Enter_your_email_address": {
+        "message": "Enter your email address"
+    },
+    "Enter_your_passcode_to_reveal_mnemonic_": {
+        "message": "Enter your passcode to reveal mnemonic "
+    },
+    "Error_occurred_when_call_chrome_window_remove": {
+        "message": "Error occurred when call chrome.window.remove"
+    },
+    "Fail_to_generate_account": {
+        "message": "Fail to generate account"
+    },
+    "Fail_to_recover_account_by_mnemonic": {
+        "message": "Fail to recover account by mnemonic"
+    },
+    "Finish_creating": {
+        "message": "Finish creating"
+    },
+    "GasFee": {
+        "message": "GasFee"
+    },
+    "Gas_Fee": {
+        "message": "Gas Fee"
+    },
+    "General": {
+        "message": "General"
+    },
+    "Home_": {
+        "message": "Home!"
+    },
+    "I_have_read_and_agreen_to": {
+        "message": "I have read and agreen to"
+    },
+    "Icon": {
+        "message": "Icon"
+    },
+    "Illegal_DApp__connection_failed": {
+        "message": "Illegal DApp, connection failed"
+    },
+    "Illegal_format": {
+        "message": "Illegal format"
+    },
+    "Illegal_token_precision_need_less_than__1_": {
+        "message": "Illegal token precision(need less than $1)"
+    },
+    "Insuffient_DIO_Balance": {
+        "message": "Insuffient DIO Balance"
+    },
+    "Insuffient__1_Balance": {
+        "message": "Insuffient $1 Balance"
+    },
+    "Invalid_Address": {
+        "message": "Invalid Address"
+    },
+    "Invalid_Average_Gas_Price": {
+        "message": "Invalid Average Gas Price"
+    },
+    "Invalid_Gas_Limit": {
+        "message": "Invalid Gas Limit"
+    },
+    "Invalid_Token_": {
+        "message": "Invalid Token:"
+    },
+    "Litenode": {
+        "message": "Litenode"
+    },
+    "Local_Litenode": {
+        "message": "Local Litenode"
+    },
+    "Lock_Wallet": {
+        "message": "Lock Wallet"
+    },
+    "Login": {
+        "message": "Login"
+    },
+    "MAX": {
+        "message": "MAX"
+    },
+    "Mnemonic_provides_an_alternative_way_to_login__in_case_you_forget_the_passcode__It_consistents_of_exactly_18_words__case_sensitive__Please_write_them_down_and_keep_them_in_a_safe_place_Whoever_has_the_mnemonic_may_gain_full_control_of_the_Address": {
+        "message": "Mnemonic provides an alternative way to login, in case you forget the passcode. It consistents of exactly 18 words, case sensitive. Please write them down and keep them in a safe place Whoever has the mnemonic may gain full control of the Address"
+    },
+    "More": {
+        "message": "More"
+    },
+    "Name": {
+        "message": "Name"
+    },
+    "Networks": {
+        "message": "Networks"
+    },
+    "New_Passcode": {
+        "message": "New Passcode"
+    },
+    "Next": {
+        "message": "Next"
+    },
+    "No__1_record": {
+        "message": "No $1 record"
+    },
+    "No_authenticity": {
+        "message": "No authenticity"
+    },
+    "Not_connected": {
+        "message": "Not connected"
+    },
+    "Not_sufficient_DIO": {
+        "message": "Not sufficient DIO"
+    },
+    "Not_sufficient_DIO_in_address": {
+        "message": "Not sufficient DIO in address"
+    },
+    "Not_sufficient_DIO_in_address_": {
+        "message": "Not sufficient DIO in address:"
+    },
+    "Old_passcode_do_not_match": {
+        "message": "Old passcode do not match"
+    },
+    "Parameter_Amount_s_decimal_places_cannot_exceed__1_for_DIO": {
+        "message": "Parameter Amount's decimal places cannot exceed $1 for DIO"
+    },
+    "Passcode": {
+        "message": "Passcode"
+    },
+    "Passcode_do_not_match": {
+        "message": "Passcode do not match"
+    },
+    "Passcode_don_t_match": {
+        "message": "Passcode don't match"
+    },
+    "Passcode_is_at_least_8_digits": {
+        "message": "Passcode is at least 8 digits"
+    },
+    "Passcode_is_at_least_8_letters": {
+        "message": "Passcode is at least 8 letters"
+    },
+    "Passcode_is_required": {
+        "message": "Passcode is required"
+    },
+    "Paste": {
+        "message": "Paste"
+    },
+    "Please_agree_to_the_Terms_and_Policy": {
+        "message": "Please agree to the Terms and Policy"
+    },
+    "Please_back_up_the_mnemonics_in_time_": {
+        "message": "Please back up the mnemonics in time!"
+    },
+    "Please_set_the_correct_passcode": {
+        "message": "Please set the correct passcode"
+    },
+    "Receive": {
+        "message": "Receive"
+    },
+    "Recipient_s_Dioxide_Address": {
+        "message": "Recipient’s Dioxide Address"
+    },
+    "Recover_Wallet": {
+        "message": "Recover Wallet"
+    },
+    "Recover_a_Wallet_from_Mnemonic": {
+        "message": "Recover a Wallet from Mnemonic"
+    },
+    "Reject": {
+        "message": "Reject"
+    },
+    "Remote_Litenode": {
+        "message": "Remote Litenode"
+    },
+    "Reset": {
+        "message": "Reset"
+    },
+    "Reset_Wallet": {
+        "message": "Reset Wallet"
+    },
+    "Save": {
+        "message": "Save"
+    },
+    "Security___Privacy": {
+        "message": "Security & Privacy"
+    },
+    "Select": {
+        "message": "Select"
+    },
+    "Send": {
+        "message": "Send"
+    },
+    "Set_Passcode": {
+        "message": "Set Passcode"
+    },
+    "Set_the_passcode_to_be_at_least_8_digits": {
+        "message": "Set the passcode to be at least 8 digits"
+    },
+    "Settings": {
+        "message": "Settings"
+    },
+    "Signed_By": {
+        "message": "Signed By"
+    },
+    "Signer": {
+        "message": "Signer"
+    },
+    "Skip": {
+        "message": "Skip"
+    },
+    "Submit": {
+        "message": "Submit"
+    },
+    "The_Privacy_Policy": {
+        "message": "The Privacy Policy"
+    },
+    "The_Terms_of_Service": {
+        "message": "The Terms of Service"
+    },
+    "This_address_can_only_be_used_to_receive_DIO_and_tokens_on_DIO_Blockchain": {
+        "message": "This address can only be used to receive DIO and tokens on DIO Blockchain"
+    },
+    "To_confirm_that_you_have_backed_up_your_mnemonics__select_the_mnemonics_in_the_correct_order": {
+        "message": "To confirm that you have backed up your mnemonics, select the mnemonics in the correct order"
+    },
+    "Token_does_t_initialize": {
+        "message": "Token does't initialize"
+    },
+    "Transfer_NFT": {
+        "message": "Transfer NFT"
+    },
+    "Transfer_amount_cannot_be_empty": {
+        "message": "Transfer amount cannot be empty"
+    },
+    "URL_in_illegal_format": {
+        "message": "URL in illegal format"
+    },
+    "Unknow_address_type": {
+        "message": "Unknow address type"
+    },
+    "Unsupported_transfer_function_": {
+        "message": "Unsupported transfer function:"
+    },
+    "Use_the_DioWallet_to_Connect": {
+        "message": "Use the DioWallet to Connect"
+    },
+    "User_Reject": {
+        "message": "User Reject"
+    },
+    "Version": {
+        "message": "Version"
+    },
+    "View_Address_on_DioScan": {
+        "message": "View Address on DioScan"
+    },
+    "View_More": {
+        "message": "View More"
+    },
+    "Wallet_removal_is_irrevocable__It_can___only___be_recovered_by_a_backup_mnemonic_": {
+        "message": "Wallet removal is irrevocable. It can **only** be recovered by a backup mnemonic."
+    },
+    "Welcome_to__1__a_secure_crypto_wallet_tailored_to_your_needs_": {
+        "message": "Welcome to $1, a secure crypto wallet tailored to your needs."
+    },
+    "You_can_quickly_open_the__1_with_this_keyboard_shortcut_": {
+        "message": "You can quickly open the $1 with this keyboard shortcut:"
+    },
+    "_1_is_connected_to__2_DApps_They_can_view_your_address_": {
+        "message": "$1 is connected to $2 DApps.They can view your address."
+    },
+    "_Copied_": {
+        "message": " Copied "
+    },
+    "_MANIFEST_desc": {
+        "message": "This crypto wallet is friendly for tokens, NFTs, and Defi on Dioxide."
+    },
+    "__or_enter_a_backup_mnenomic_below": {
+        "message": ", or enter a backup mnenomic below"
+    },
+    "args_is_required": {
+        "message": "args is required"
+    },
+    "dappTx_or_txdata_is_required_at_least": {
+        "message": "dappTx or txdata is required at least"
+    },
+    "home": {
+        "message": "home"
+    },
+    "incorrect_passcode": {
+        "message": "incorrect passcode"
+    },
+    "minutes": {
+        "message": "minutes"
+    },
+    "no_hash_return_from_litenode_after_issueTx_successed": {
+        "message": "no hash return from litenode after issueTx successed"
+    },
+    "not_match": {
+        "message": "not match"
+    },
+    "not_sufficient_DIO": {
+        "message": "not sufficient DIO"
+    },
+    "passcode_do_not_match": {
+        "message": "passcode do not match"
+    },
+    "token_is_required": {
+        "message": "token is required"
+    },
+    "transaction": {
+        "message": "transaction"
+    },
+    "unknow_func_": {
+        "message": "unknow func "
+    },
+    "unset_metadata": {
+        "message": "unset metadata"
+    },
+    "unset_website": {
+        "message": "unset website"
+    },
+    "valid_DApp_failed_because_connecting_wallet_without_params_symbol": {
+        "message": "valid DApp failed because connecting wallet without params.symbol"
+    }
+}

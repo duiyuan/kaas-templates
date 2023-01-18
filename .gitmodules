@@ -1,0 +1,3 @@
+[submodule "dioxscan-interface"]
+	path = dioxscan-interface
+	url = git@github.com:duiyuan/dioxscan-interface.git

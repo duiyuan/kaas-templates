@@ -1,0 +1,17 @@
+.ui-wallet-toast-nest {
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background-color: var(--color-success-bg);
+  svg {
+    margin-right: 8px;
+    flex: none;
+  }
+  span {
+    line-height: 22px;
+    word-break: break-word;
+  }
+  &.error {
+    background-color: var(--color-error-bg);
+  }
+}

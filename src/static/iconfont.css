@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "wallet"; /* Project id 3287012 */
+  src: url('iconfont.woff2?t=1649661110720') format('woff2'),
+       url('iconfont.woff?t=1649661110720') format('woff'),
+       url('iconfont.ttf?t=1649661110720') format('truetype');
+}
+
+.wallet {
+  font-family: "wallet" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wallet-jianpantishi:before {
+  content: "\e714";
+}
+
+.wallet-a-dagou2x:before {
+  content: "\e713";
+}
+
+.wallet-logo:before {
+  content: "\e70a";
+}
+
+.wallet-copy:before {
+  content: "\e708";
+}
+
+.wallet-menu:before {
+  content: "\e709";
+}
+
+.wallet-eye:before {
+  content: "\e707";
+}
+
+.wallet-left:before {
+  content: "\e6fb";
+}
+
+.wallet-plus:before {
+  content: "\e6fc";
+}
+
+.wallet-cross:before {
+  content: "\e6fd";
+}
+
+.wallet-lock:before {
+  content: "\e6fe";
+}
+
+.wallet-fold:before {
+  content: "\e6ff";
+}
+
+.wallet-edit:before {
+  content: "\e700";
+}
+
+.wallet-pulldown:before {
+  content: "\e701";
+}
+
+.wallet-forward:before {
+  content: "\e702";
+}
+
+.wallet-down:before {
+  content: "\e703";
+}
+
+.wallet-settings:before {
+  content: "\e704";
+}
+
+.wallet-right:before {
+  content: "\e705";
+}
+
+.wallet-pullup:before {
+  content: "\e706";
+}
+

@@ -1,0 +1,135 @@
+{
+  "id": "3287012",
+  "name": "钱包dioxide",
+  "font_family": "wallet",
+  "css_prefix_text": "wallet-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "28875258",
+      "name": "键盘提示",
+      "font_class": "jianpantishi",
+      "unicode": "e714",
+      "unicode_decimal": 59156
+    },
+    {
+      "icon_id": "28875132",
+      "name": "打勾@2x",
+      "font_class": "a-dagou2x",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "28605415",
+      "name": "logo",
+      "font_class": "logo",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    },
+    {
+      "icon_id": "28605377",
+      "name": "copy",
+      "font_class": "copy",
+      "unicode": "e708",
+      "unicode_decimal": 59144
+    },
+    {
+      "icon_id": "28605384",
+      "name": "menu",
+      "font_class": "menu",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    },
+    {
+      "icon_id": "28584800",
+      "name": "眼睛",
+      "font_class": "eye",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "28584718",
+      "name": "返回",
+      "font_class": "left",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
+    {
+      "icon_id": "28584719",
+      "name": "加号",
+      "font_class": "plus",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "28584720",
+      "name": "关闭",
+      "font_class": "cross",
+      "unicode": "e6fd",
+      "unicode_decimal": 59133
+    },
+    {
+      "icon_id": "28584721",
+      "name": "锁",
+      "font_class": "lock",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "28584722",
+      "name": "收起",
+      "font_class": "fold",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "28584723",
+      "name": "编辑",
+      "font_class": "edit",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "28584724",
+      "name": "下拉",
+      "font_class": "pulldown",
+      "unicode": "e701",
+      "unicode_decimal": 59137
+    },
+    {
+      "icon_id": "28584725",
+      "name": "前往",
+      "font_class": "forward",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "28584726",
+      "name": "receive",
+      "font_class": "down",
+      "unicode": "e703",
+      "unicode_decimal": 59139
+    },
+    {
+      "icon_id": "28584727",
+      "name": "设置",
+      "font_class": "settings",
+      "unicode": "e704",
+      "unicode_decimal": 59140
+    },
+    {
+      "icon_id": "28584729",
+      "name": "右箭头",
+      "font_class": "right",
+      "unicode": "e705",
+      "unicode_decimal": 59141
+    },
+    {
+      "icon_id": "28584730",
+      "name": "send",
+      "font_class": "pullup",
+      "unicode": "e706",
+      "unicode_decimal": 59142
+    }
+  ]
+}
