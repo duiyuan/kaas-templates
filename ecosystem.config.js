@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'ssr-project',
+      name: 'KAASPROJECTNAME',
       script: 'server/index.js',
       autorestart: true,
       max_restarts: 20,
