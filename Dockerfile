@@ -15,7 +15,7 @@ COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 
-LABEL app="spa-project"
+LABEL app="KAASPROJECTNAME"
 ARG VERSION
 EXPOSE 11000
 COPY --chmod=755 docker-entrypoint.sh ./
