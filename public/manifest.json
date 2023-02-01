@@ -1,6 +1,6 @@
 {
-  "author": "AYTHOR",
-  "name": "CHROMEEXTENSION",
+  "author": "kaas",
+  "name": "KAASPROJECTNAME",
   "version": "1.2.2",
   "description": "__MSG__MANIFEST_desc__",
   "background": {
@@ -18,7 +18,7 @@
       "64": "/images/logo-golden.png"
     },
     "default_popup": "popup.html",
-    "default_title": "CHROMEEXTENSION"
+    "default_title": "KAASPROJECTNAME"
   },
   "icons": {
     "16": "/images/logo-golden.png",

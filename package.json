@@ -1,7 +1,7 @@
 {
-  "name": "CHROMEEXTENSION",
+  "name": "KAASPROJECTNAME",
   "version": "1.0.0",
-  "description": "CHROMEEXTENSION DESCRIPTION",
+  "description": "KAASPROJECTNAME DESCRIPTION",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/duiyuan/CHROMEEXTENSION.git"
+    "url": "git+https://github.com/duiyuan/KAASPROJECTNAME.git"
   },
   "keywords": [],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/duiyuan/CHROMEEXTENSION.git/issues"
+    "url": "https://github.com/duiyuan/KAASPROJECTNAME.git/issues"
   },
   "homepage": ".",
   "devDependencies": {
