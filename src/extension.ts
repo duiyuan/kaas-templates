@@ -2,7 +2,7 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from "vscode";
 
-import runVSC_EXTENSION from "./Commands/run";
+import runKAASPROJECTNAME from "./Commands/run";
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -12,8 +12,8 @@ export function activate(context: vscode.ExtensionContext) {
 
   // run
   const runChsimuCommand = vscode.commands.registerCommand(
-    "VSC_EXTENSION.run",
-    (uri: vscode.Uri) => runVSC_EXTENSION(uri, context)
+    "KAASPROJECTNAME.run",
+    (uri: vscode.Uri) => runKAASPROJECTNAME(uri, context)
   );
 
   // 注册到监听队列中

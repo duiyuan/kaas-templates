@@ -1,7 +1,7 @@
 {
-  "name": "VSC_EXTENSION",
-  "displayName": "VSC_EXTENSION displayName",
-  "description": "VSC_EXTENSION description",
+  "name": "KAASPROJECTNAME",
+  "displayName": "KAASPROJECTNAME displayName",
+  "description": "KAASPROJECTNAME description",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.56.0"
@@ -12,13 +12,13 @@
   ],
   "publisher": "AUTHOR",
   "activationEvents": [
-    "onCommand:VSC_EXTENSION.run"
+    "onCommand:KAASPROJECTNAME.run"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "keybindings": [
       {
-        "command": "VSC_EXTENSION.run",
+        "command": "KAASPROJECTNAME.run",
         "key": "ctrl+5",
         "mac": "cmd+5",
         "when": "editorTextFocus"
@@ -26,22 +26,22 @@
     ],
     "commands": [
       {
-        "command": "VSC_EXTENSION.run",
-        "title": "VSC_EXTENSION: Run"
+        "command": "KAASPROJECTNAME.run",
+        "title": "KAASPROJECTNAME: Run"
       }
     ],
     "menus": {
       "explorer/context": [
         {
-          "command": "VSC_EXTENSION.run",
-          "group": "1_VSC_EXTENSION",
+          "command": "KAASPROJECTNAME.run",
+          "group": "1_KAASPROJECTNAME",
           "when": "resourceExtname =~ /\\..?/"
         }
       ],
       "editor/context": [
         {
-          "command": "VSC_EXTENSION.run",
-          "group": "1_VSC_EXTENSION",
+          "command": "KAASPROJECTNAME.run",
+          "group": "1_KAASPROJECTNAME",
           "when": "editorTextFocus && resourceExtname =~ /\\..?/"
         }
       ]
@@ -99,6 +99,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/duiyuan/VSC_EXTENSION"
+    "url": "https://github.com/duiyuan/KAASPROJECTNAME"
   }
 }
