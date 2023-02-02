@@ -100,8 +100,8 @@
     "webpack-cli": "^4.7.0"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development NODE_PORT=11001 webpack serve --hot --open -c ./config/webpack.config.js",
-    "build": "cross-env NODE_ENV=production webpack -c ./config/webpack.config.js",
+    "dev": "NODE_ENV=development NODE_PORT=11001 webpack serve --hot --open -c ./config/webpack.config.js",
+    "build": "NODE_ENV=production webpack -c ./config/webpack.config.js",
     "test": "jest",
     "test:coverage": "jest test --coverage",
     "lint": "eslint src --fix --ext .ts,.tsx"
