@@ -86,6 +86,7 @@
     "@typescript-eslint/eslint-plugin": "^5.7.0",
     "@typescript-eslint/parser": "^5.7.0",
     "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.4.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^3.5.3",
@@ -100,8 +101,8 @@
     "webpack-cli": "^4.7.0"
   },
   "scripts": {
-    "dev": "NODE_ENV=development NODE_PORT=11001 webpack serve --hot --open -c ./config/webpack.config.js",
-    "build": "NODE_ENV=production webpack -c ./config/webpack.config.js",
+    "dev": "cross-env NODE_ENV=development NODE_PORT=11001 webpack serve --hot --open -c ./config/webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack -c ./config/webpack.config.js",
     "test": "jest",
     "test:coverage": "jest test --coverage",
     "lint": "eslint src --fix --ext .ts,.tsx"
