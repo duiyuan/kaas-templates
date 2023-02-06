@@ -9,14 +9,18 @@ import { BrowserTracing } from '@sentry/tracing'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 
-Sentry.init({
-  dsn: 'https://xxxxxx',
-  integrations: [new BrowserTracing()],
+try {
+  Sentry.init({
+    dsn: 'https://xxxxxx',
+    integrations: [new BrowserTracing()],
 
-  // We recommend adjusting this value in production, or using tracesSampler
-  // for finer control
-  tracesSampleRate: 1.0,
-})
+    // We recommend adjusting this value in production, or using tracesSampler
+    // for finer control
+    tracesSampleRate: 1.0,
+  })
+} catch (e) {
+  console.log(e)
+}
 
 root.render(
   <React.StrictMode>
