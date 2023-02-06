@@ -4,8 +4,20 @@ import './index.scss'
 import reportWebVitals from './reportWebVitals'
 import router from './router'
 import { RouterProvider } from 'react-router-dom'
+import * as Sentry from '@sentry/react'
+import { BrowserTracing } from '@sentry/tracing'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
+
+Sentry.init({
+  dsn: 'https://xxxxxx',
+  integrations: [new BrowserTracing()],
+
+  // We recommend adjusting this value in production, or using tracesSampler
+  // for finer control
+  tracesSampleRate: 1.0,
+})
+
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
