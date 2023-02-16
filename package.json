@@ -33,22 +33,22 @@
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^16.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.7.0",
-    "@typescript-eslint/parser": "^5.7.0",
     "@eggjs/tsconfig": "1",
     "@types/mocha": "10",
     "@types/node": "18",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
     "egg-bin": "6",
     "egg-mock": "5",
     "eslint": "8",
     "eslint-config-egg": "12",
-    "husky": "4",
-    "lint-staged": "^12.1.2",
-    "typescript": "4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.5.1"
+    "husky": "^8.0.3",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.1",
+    "typescript": "4"
   },
   "engines": {
     "node": ">=18.0.0"
