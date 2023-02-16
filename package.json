@@ -1,0 +1,73 @@
+{
+  "name": "kaas-templates",
+  "version": "1.0.0",
+  "description": "egg template",
+  "private": true,
+  "egg": {
+    "typescript": true
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-kaas-templates",
+    "stop": "egg-scripts stop --title=egg-server-kaas-templates",
+    "dev": "egg-bin dev",
+    "test-local": "egg-bin test -p",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "cov": "egg-bin cov -p",
+    "ci": "npm run lint && npm run cov && npm run tsc && npm run clean",
+    "lint": "eslint . --ext .ts --cache",
+    "tsc": "tsc",
+    "clean": "tsc -b --clean"
+  },
+  "dependencies": {
+    "@eggjs/tegg": "^3.5.2",
+    "@eggjs/tegg-aop-plugin": "^3.5.2",
+    "@eggjs/tegg-config": "^3.2.3",
+    "@eggjs/tegg-controller-plugin": "^3.5.2",
+    "@eggjs/tegg-eventbus-plugin": "^3.5.2",
+    "@eggjs/tegg-plugin": "^3.5.2",
+    "@eggjs/tegg-schedule-plugin": "^3.5.2",
+    "egg": "^3.15.0",
+    "egg-scripts": "^2.17.0",
+    "egg-tracer": "^2.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.2",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "@eggjs/tsconfig": "1",
+    "@types/mocha": "10",
+    "@types/node": "18",
+    "egg-bin": "6",
+    "egg-mock": "5",
+    "eslint": "8",
+    "eslint-config-egg": "12",
+    "husky": "4",
+    "lint-staged": "^12.1.2",
+    "typescript": "4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "npm run lint"
+    ]
+  },
+  "author": "",
+  "license": "MIT"
+}

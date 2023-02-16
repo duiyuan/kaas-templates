@@ -1,13 +1,33 @@
-## Project Template  
+# hackernews-tegg
 
-this repo save the available template for cli (undone, continuous updating)
+[Hacker News](https://news.ycombinator.com/) showcase using [tegg](https://github.com/eggjs/tegg)
 
-###  Repo   
-1) ssr: init a ssr project with nextjs  
-2) spa: init a spa project with react  
-3) vscode-extension: init a vscode extension project with ts  
-4) chrome-extension: init a chrome extension project with ts  
+## QuickStart
 
-### Download  
+### Development
 
-use branch to download different template (e.g. c-rick/project-template#ssr will download ssr template)
+```bash
+$ npm i
+$ npm run dev
+$ open http://localhost:7001/
+```
+
+Don't tsc compile at development mode, if you had run `tsc` then you need to `npm run clean` before `npm run dev`.
+
+### Deploy
+
+```bash
+$ npm run tsc
+$ npm start
+```
+
+### Npm Scripts
+
+- Use `npm run lint` to check code style
+- Use `npm test` to run unit test
+- se `npm run clean` to clean compiled js at development mode once
+
+### Requirement
+
+- Node.js >= 16.x
+- Typescript >= 4.x
