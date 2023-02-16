@@ -1,7 +1,7 @@
 {
-  "name": "kaas-templates",
+  "name": "KAASPROJECTNAME",
   "version": "1.0.0",
-  "description": "egg template",
+  "description": "KAASPROJECTNAME description",
   "private": true,
   "egg": {
     "typescript": true
