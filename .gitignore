@@ -6,11 +6,10 @@ coverage/
 run/
 logs/
 .DS_Store
-.vscode
 *.swp
 *.lock
-*.js
 .eslintcache
+out/
 
 app/**/*.js
 test/**/*.js

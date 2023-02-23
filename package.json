@@ -19,6 +19,7 @@
     "clean": "tsc -b --clean"
   },
   "dependencies": {
+    "@duiyuan/eslint-config": "^0.1.4",
     "@eggjs/tegg": "^3.5.2",
     "@eggjs/tegg-aop-plugin": "^3.5.2",
     "@eggjs/tegg-config": "^3.2.3",
@@ -47,7 +48,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^12.1.2",
-    "prettier": "^2.5.1",
+    "prettier": "^2.8.4",
     "typescript": "4"
   },
   "engines": {
