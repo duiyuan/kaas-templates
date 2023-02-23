@@ -1,11 +1,7 @@
-import React from "react";
+import React from 'react'
 
-import './style.scss';
+import './style.scss'
 
 export const Home = () => {
-  return (
-    <div className="home">
-      home
-    </div>
-  );
-};
+  return <div className="home">home</div>
+}
