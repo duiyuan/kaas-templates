@@ -1,6 +1,5 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import WrapPage from '@/components/base/Layout/wrap'
-import { useCDN } from '@/utils/cdn'
 import styled from 'styled-components'
 import refreshStore from '@/store/Refresh'
 import { observer } from 'mobx-react-lite'
