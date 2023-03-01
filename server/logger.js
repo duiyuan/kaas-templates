@@ -43,5 +43,5 @@ configure({
   pm2InstanceVar: 'INSTANCE_ID',
 })
 
-exports.logger = getLogger('monoxide-explore')
+exports.logger = getLogger('KAASPROJECTNAME')
 exports.shutdown = shutdown
