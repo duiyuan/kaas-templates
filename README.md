@@ -5,14 +5,6 @@
 - pm2 + pm2-intercom + pm2-logrotate-ext
 - yarn
 
-### Technology stack
-
-- react
-- react-router
-- mobx
-- nextjs
-- typescript
-
 ### Dev
 
 use [next](https://www.nextjs.cn/) + ts
