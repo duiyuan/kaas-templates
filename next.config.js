@@ -24,7 +24,7 @@ const sentryWebpackPluginOptions = {
   // https://github.com/getsentry/sentry-webpack-plugin#options.
 }
 
-module.exports = nextconfig =>
+module.exports = (phase, { nextconfig }) =>
   withSentryConfig(
     {
       ...nextconfig,
@@ -39,12 +39,13 @@ module.exports = nextconfig =>
 
         return config
       },
-      assetPrefix: '',
+      assetPrefix: undefined,
       poweredByHeader: false,
       sentry: {
         widenClientFileUpload: hasSentryrc,
         disableServerWebpackPlugin: !hasSentryrc,
         disableClientWebpackPlugin: !hasSentryrc,
+        hideSourceMaps: true,
       },
     },
     sentryWebpackPluginOptions,

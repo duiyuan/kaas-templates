@@ -1,5 +1,6 @@
 const nextJest = require('next/jest')
-const createJestConfig = nextJest({ dir: './test' })
+const createJestConfig = nextJest({ dir: './' })
+
 const customJestConfig = {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',

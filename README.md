@@ -53,6 +53,4 @@ $ yarn lint
 
 use [husky](https://www.npmjs.com/package/husky) + [lint-staged](https://www.npmjs.com/package/lint-staged) for commit hook
 
-use [recoil](https://recoiljs.org/)
-
 use github action (config is in release.yml) + [standard-version](https://github.com/conventional-changelog/standard-version) to auto create changelog, push tag, update version

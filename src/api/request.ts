@@ -2,10 +2,6 @@ import axios, { AxiosInstance, AxiosPromise, AxiosRequestConfig, AxiosRequestHea
 import { filterEmptyParams } from '@/utils'
 import toasty from '@/components/base/Toast'
 import JSONbig from 'json-bigint'
-// import cookie from 'js-cookie'
-// import querystring from 'query-string'
-
-// import * as Sentry from '@sentry/node'
 
 export interface RequestParams extends AxiosRequestConfig {
   [props: string]: any
