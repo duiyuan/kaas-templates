@@ -1350,19 +1350,6 @@
   resolved "https://registry.npmmirror.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
-"@duiyuan/eslint-config@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.npmmirror.com/@duiyuan/eslint-config/-/eslint-config-0.1.4.tgz#bc4d2b9c4b23bcadf2cf1cc1102d11ab7d0bae49"
-  integrity sha512-oAwSbf4zVOqdQ0/z93e/ytpF6riGjaY/gy/wWwlcCvPZDp3xhvxslpJV5BwtT8w2AV+g8fwWahZ01GAIszET0A==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "^5.18.0"
-    "@typescript-eslint/parser" "^5.18.0"
-    eslint-config-prettier "^8.5.0"
-    eslint-plugin-prettier "^4.0.0"
-    eslint-plugin-promise "^6.0.0"
-    eslint-plugin-react "^7.29.4"
-    eslint-plugin-react-hooks "^4.3.0"
-
 "@emotion/is-prop-valid@^1.1.0":
   version "1.2.0"
   resolved "https://registry.npmmirror.com/@emotion/is-prop-valid/-/is-prop-valid-1.2.0.tgz#7f2d35c97891669f7e276eb71c83376a5dc44c83"
@@ -1733,6 +1720,19 @@
   dependencies:
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
+
+"@kaas-devteam/eslint-config@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.npmmirror.com/@kaas-devteam/eslint-config/-/eslint-config-0.1.4.tgz#5a8b2d2cdcf0ea96576365c2d08efd6fcf25abfd"
+  integrity sha512-/IPhzNZ70+eeHcW0+uQbc6IfqQZ2tcK2iumFUSQXVRWjLlSo140oXnlSMifoLINK2bzC4hWT5KdEqkzxGqViFQ==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^5.18.0"
+    "@typescript-eslint/parser" "^5.18.0"
+    eslint-config-prettier "^8.5.0"
+    eslint-plugin-prettier "^4.0.0"
+    eslint-plugin-promise "^6.0.0"
+    eslint-plugin-react "^7.29.4"
+    eslint-plugin-react-hooks "^4.3.0"
 
 "@leichtgewicht/ip-codec@^2.0.1":
   version "2.0.4"
