@@ -1,3 +1,3 @@
 module.exports = {
-  extends: "@duiyuan/eslint-config"
+  extends: "@kaas-devteam/eslint-config"
 }

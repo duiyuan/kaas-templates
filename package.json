@@ -19,7 +19,7 @@
     "clean": "tsc -b --clean"
   },
   "dependencies": {
-    "@duiyuan/eslint-config": "^0.1.4",
+    "@kaas-devteam/eslint-config": "^0.1.4",
     "@eggjs/tegg": "^3.5.2",
     "@eggjs/tegg-aop-plugin": "^3.5.2",
     "@eggjs/tegg-config": "^3.2.3",
