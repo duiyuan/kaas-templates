@@ -14,7 +14,7 @@
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.17.12",
     "@dioxide-js/misc": "^0.1.4",
-    "@duiyuan/eslint-config": "^0.1.4",
+    "@kaas-devteam/eslint-config": "^0.1.4",
     "@koa/router": "^10.1.1",
     "@react-hook/throttle": "^2.2.0",
     "@sentry/browser": "^6.16.1",

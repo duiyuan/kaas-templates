@@ -498,19 +498,6 @@
     crc-32 "^1.2.2"
     moment-mini "^2.24.0"
 
-"@duiyuan/eslint-config@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.npmmirror.com/@duiyuan/eslint-config/-/eslint-config-0.1.4.tgz#bc4d2b9c4b23bcadf2cf1cc1102d11ab7d0bae49"
-  integrity sha512-oAwSbf4zVOqdQ0/z93e/ytpF6riGjaY/gy/wWwlcCvPZDp3xhvxslpJV5BwtT8w2AV+g8fwWahZ01GAIszET0A==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "^5.18.0"
-    "@typescript-eslint/parser" "^5.18.0"
-    eslint-config-prettier "^8.5.0"
-    eslint-plugin-prettier "^4.0.0"
-    eslint-plugin-promise "^6.0.0"
-    eslint-plugin-react "^7.29.4"
-    eslint-plugin-react-hooks "^4.3.0"
-
 "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
   resolved "https://rg.cnpmjs.org/@emotion/is-prop-valid/download/@emotion/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
@@ -751,6 +738,19 @@
   version "1.4.14"
   resolved "https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz#add4c98d341472a289190b424efbdb096991bb24"
   integrity sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==
+
+"@kaas-devteam/eslint-config@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.npmmirror.com/@kaas-devteam/eslint-config/-/eslint-config-0.1.4.tgz#5a8b2d2cdcf0ea96576365c2d08efd6fcf25abfd"
+  integrity sha512-/IPhzNZ70+eeHcW0+uQbc6IfqQZ2tcK2iumFUSQXVRWjLlSo140oXnlSMifoLINK2bzC4hWT5KdEqkzxGqViFQ==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^5.18.0"
+    "@typescript-eslint/parser" "^5.18.0"
+    eslint-config-prettier "^8.5.0"
+    eslint-plugin-prettier "^4.0.0"
+    eslint-plugin-promise "^6.0.0"
+    eslint-plugin-react "^7.29.4"
+    eslint-plugin-react-hooks "^4.3.0"
 
 "@koa/router@^10.1.1":
   version "10.1.1"
