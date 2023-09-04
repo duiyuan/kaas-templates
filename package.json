@@ -93,7 +93,7 @@
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
-    "@duiyuan/eslint-config": "^0.1.4",
+    "@kaas-devteam/eslint-config": "^0.1.4",
     "dayjs": "^1.11.6",
     "ejs": "^3.1.8",
     "fs-extra": "^10.1.0",
