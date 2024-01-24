@@ -1,0 +1,41 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+
+model Tribe {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  name String @unique
+  members User[] @relation("members")
+  owner User @relation(fields: [ownerAddr], references: [address], onDelete: NoAction, onUpdate: NoAction)
+  ownerAddr String @unique
+  score Float?
+}
+
+model User {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  address String @unique
+  tweetUserID String?
+  tweetName String?
+  taskObject Json?
+  score Float @default(value: 0)
+  createAt DateTime @default(now())
+  updateAt DateTime?
+  inviter User? @relation("inviteToUser", fields: [inviterAddr], references: [address], onDelete: NoAction, onUpdate: NoAction)
+  inviterAddr String? @unique
+  invitee User[] @relation("inviteToUser")
+  belongTribe Tribe? @relation("members", fields: [belongTribeId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  belongTribeId String? @db.ObjectId
+  tribe Tribe?
+  invitecode String? @unique
+  shareTribeTweet String?
+}
+
