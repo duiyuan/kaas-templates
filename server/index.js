@@ -13,8 +13,9 @@ app.prepare().then(() => {
   const router = new Router()
 
   router.all('(.*)', async ctx => {
-    await handle(ctx.req, ctx.res)
     ctx.respond = false
+    ctx.response.status = 200
+    await handle(ctx.req, ctx.res)
   })
 
   server.on('error', (err, ctx) => {

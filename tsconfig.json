@@ -25,13 +25,19 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "type-declarations/*.d.ts"
+    "type-declarations/*.d.ts",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

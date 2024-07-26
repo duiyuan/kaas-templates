@@ -1,5 +1,7 @@
+'use client'
+
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
-import WrapPage from '@/components/base/Layout/wrap'
+// import WrapPage from '@/components/base/Layout/wrap'
 import styled from 'styled-components'
 import refreshStore from '@/store/Refresh'
 import { observer } from 'mobx-react-lite'
@@ -9,7 +11,7 @@ const HomeTotalStyled = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   font-size: 30px;
   color: #2b89e2;
   .logo {
@@ -37,4 +39,4 @@ const Home: CustomPage = () => {
   )
 }
 
-export default WrapPage(observer(Home))
+export default observer(Home)

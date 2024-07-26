@@ -15,7 +15,7 @@
   --color-btn-other: #ffffff;
   // bg
   --color-box-bg: #ffffff;
-  --color-bg: #f7f7fa;
+  --color-bg: #1B1A21;
   --color-btn-bg: #f4f4f4;
   --color-select-bg: #f5f7ff;
   --color-icon-bg: #d7e2f5;
@@ -69,12 +69,12 @@ input {
 }
 
 // contianer
-$containerWidth: 1362;
+$containerWidth: 1280;
 
 .container {
   width: 100%;
   max-width: #{$containerWidth}px;
-  min-height: 100vh;
+  height: calc(100vh - 380px);
   margin: 0 auto;
 }
 
@@ -126,4 +126,15 @@ $containerWidth: 1362;
     font-size: 40px;
     color: #000000;
   }
+}
+
+// layout
+header {
+  height: 80px;
+  background: var(--color-bg);
+}
+
+footer {
+  height: 300px;
+  background: var(--color-bg);
 }

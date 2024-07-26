@@ -1,5 +1,3 @@
-import WrapPage from '@/components/base/Layout/wrap'
-
 const Error = () => {
   return (
     <div className="page-404">
@@ -9,4 +7,4 @@ const Error = () => {
   )
 }
 
-export default WrapPage(Error)
+export default Error
